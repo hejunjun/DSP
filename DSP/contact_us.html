@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系我们</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.12.0/jquery.js"></script>
+</head>
+<body >	
+	<div id='head'></div>
+	<div id='contact_body'>
+		<div class="form">
+			<img src="imgs/contact_true.jpg" class="contact_submit">
+			<img src="imgs/contact_false.jpg" class="contact_submit">
+			<h1>咨询留言</h1>
+			<h2>请仔细填写以下内容，方便准确提供投放方案</h2>
+			<form id='contact_form'>
+				<ul>
+					<li>
+						<b>姓 名：</b>
+						<input type="text"/>
+						<img src="imgs/contact_input.png"/>
+						<span>2-4个汉字或英文字母，不区分大小写</span>
+						<s></s>
+					</li>
+					<li>
+						<b>联系电话：</b>
+						<input type="text"/>
+						<img src="imgs/contact_input.png"/>
+						<span>请输入十一位数的手机号码</span>
+						<s></s>
+					</li>
+					<li>
+						<b>邮箱地址：</b>
+						<input type="text"/>
+						<img src="imgs/contact_input.png"/>
+						<span>请输入您的邮箱，以便以后联系您</span>
+						<s></s>
+					</li>				
+					<li style="height: 114px">
+						<b>广告需求：</b>
+						<input type="checkbox" value="tiepian"  id='tiepian' />
+						<label for='tiepian'></label>
+						<span>贴片广告</span>
+						<input type="checkbox" value="zanting" id='zanting'/>
+						<label for="zanting"></label>
+						<span>暂停广告</span>
+						<input type="checkbox" value="yidongduan"  id='yidongduan'/>
+						<label for="yidongduan"></label>
+						<span>移动端广告</span>
+						<input type="checkbox" value="qita"  id="qita"/>
+						<label for="qita"></label>
+						<span>其他</span>
+						<input type="text" style="border: 1px solid;left:210px;width: 368px;height: 32px;" />
+						<s></s>
+					</li>
+					<li>
+						<b>预计花费：</b>
+						<input type="radio" value="tiepian" name="huafei" id='wuwan' />
+						<label for='wuwan'></label>
+						<span>5万内</span>
+						<input type="radio" value="zanting" name="huafei" id='sanshi'/>
+						<label for="sanshi"></label>
+						<span>5~30万</span>
+						<input type="radio" value="yidongduan" name="huafei" id='yibaiwan'/>
+						<label for="yibaiwan"></label>
+						<span>30~100万</span>
+						<input type="radio" value="qita" name="huafei" id="yibaiwanup"/>
+						<label for="yibaiwanup"></label>
+						<span>100万以上</span>
+						<s style="top:0px;"></s>
+					</li>
+					<li style="height: 170px">
+						<b>留言备注：</b>
+						<textarea cols="10" rows="4"></textarea>
+					</li>
+					<li>
+						<i></i>
+					</li>
+					</ul>
+			</form>
+		</div>
+	</div>
+	<div id='foots'></div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
